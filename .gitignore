@@ -1,0 +1,136 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+<<<<<<< HEAD
+# Build outputs
+dist/
+build/
+.out/
+.next/
+out/
+
+# Environment files
+=======
+# Testing
+coverage/
+
+# Next.js build output
+.next/
+out/
+
+# Production
+build/
+dist/
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local env files
+>>>>>>> 639c042 (Frontend: Home page , Dashboard and pool chart developed)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+<<<<<<< HEAD
+<<<<<<< HEAD
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# IDE
+=======
+=======
+.env.example
+.env.*
+>>>>>>> a799486 (rebrand to crefi-protocol and complete stellar-only migration)
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDEs
+>>>>>>> 639c042 (Frontend: Home page , Dashboard and pool chart developed)
+.vscode/
+.idea/
+*.swp
+*.swo
+<<<<<<< HEAD
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+
+# Rust/Soroban contracts
+contracts/*/target/
+**/target/
+
+# Lock files (use pnpm for all projects)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Misc
+*.tgz
+*.tmp
+=======
+
+# Backend specific
+algocrefi-backend/node_modules/
+algocrefi-backend/dist/
+algocrefi-backend/build/
+algocrefi-backend/.env
+algocrefi-backend/.env.*
+algocrefi-backend/error.log
+algocrefi-backend/server.log
+<<<<<<< HEAD
+>>>>>>> 639c042 (Frontend: Home page , Dashboard and pool chart developed)
+=======
+
+# Security-sensitive artifacts
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.secret
+*.secrets
+*.backup
+*.bak
+
+# Caches and local stores
+.cache/
+.turbo/
+npm-cache/
+
+# Logs
+*.log
+>>>>>>> a799486 (rebrand to crefi-protocol and complete stellar-only migration)
